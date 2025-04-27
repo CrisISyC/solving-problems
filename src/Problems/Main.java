@@ -6,6 +6,11 @@ public class Main {
     
         System.out.println("Main Class");
         
-        AddTwoNumbers.solution();
+        int nums1[] = {2,5,6,0,0,0};
+        int nums2[] = {1,2,3};
+        
+        MergeSortedArray.merge(nums1, 3, nums2, 3);
+        
+
     }
 }
